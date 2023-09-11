@@ -20,6 +20,7 @@ function getCurrentUTCTime() {
     const seconds = String(now.getUTCSeconds()).padStart(2, '0');
     
     return `${year}-${month}-${day}T${hours}:${minutes}:${seconds}Z`;
+    
   }
 
 const today = new Date();
