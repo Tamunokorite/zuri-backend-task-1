@@ -19,8 +19,8 @@ app.get("/", (req, res) => {
         current_day: days[today.getDay()],
         utc_time: today.toISOString(),
         track,
-        github_file_url: "",
-        github_repo_url: "",
+        github_file_url: "https://github.com/Tamunokorite/zuri-backend-task-1/blob/main/index.js",
+        github_repo_url: "https://github.com/Tamunokorite/zuri-backend-task-1",
         status_code: 200
     });
 });
