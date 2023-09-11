@@ -32,7 +32,7 @@ app.get("/api", (req, res) => {
             slack_name: slack_name,
             current_day: days[today.getDay()],
             utc_time: getCurrentUTCTime(),
-            track: track,
+            track: track.toLowerCase(),
             github_file_url: "https://github.com/Tamunokorite/zuri-backend-task-1/blob/main/index.js",
             github_repo_url: "https://github.com/Tamunokorite/zuri-backend-task-1",
             status_code: 200
